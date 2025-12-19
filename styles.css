@@ -2,11 +2,12 @@
 *{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a;line-height:1.5}
 .container{max-width:900px;margin:0 auto;padding:24px}
 .site-header{background:#0f172a;color:#fff;padding:18px 0}
-.site-header .container{display:flex;align-items:center;justify-content:space-between}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .site-title{margin:0;font-size:1.6rem}
-.main-nav{margin-top:8px}
-.main-nav a{color:#93c5c6;margin-right:14px;text-decoration:none}
-.social{display:flex;gap:10px;align-items:center}
+.brand{display:flex;align-items:center;gap:12px}
+.main-nav{flex:1;margin:0 16px;display:flex;gap:12px;flex-wrap:wrap}
+.main-nav a{color:#93c5c6;margin-right:14px;text-decoration:none;white-space:nowrap}
+.social{display:flex;gap:10px;align-items:center;margin-left:auto}
 .social a img{width:24px;height:24px;display:block}
 .card{background:var(--card);padding:20px;border-radius:8px;margin:18px 0}
 .lead{font-size:1.1rem}
@@ -21,7 +22,7 @@
 .logo{width:56px;height:auto;border-radius:8px}
 
 @media(max-width:640px){
-	.site-header .container{flex-direction:column;align-items:flex-start}
+	.site-header .container{flex-wrap:wrap;align-items:center}
 	.main-nav{margin-top:12px}
 	.grid{grid-template-columns:1fr}
 	.logo{width:46px}
