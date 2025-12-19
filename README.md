@@ -1,4 +1,4 @@
-Demo clone of https://www.ciccarello.me/
+Demo clone of https://yusif.nyc/
 
 This repository contains a minimal static HTML/CSS scaffold that reproduces the site's structure (hero, skills, posts, connect) using placeholder content. It does NOT copy long original text or images.
 
@@ -38,7 +38,7 @@ git init
 git add .
 git commit -m "Initial scaffold clone"
 git branch -M main
-git remote add origin https://github.com/<your-username>/ciccarello-clone.git
+git remote add origin https://github.com/reaper3451/PersonalWebsite1.git
 git push -u origin main
 ```
 
