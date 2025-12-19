@@ -17,8 +17,12 @@
 .site-footer{padding:20px 0;text-align:center;color:var(--muted)}
 @media(min-width:900px){.site-title{font-size:2rem}}
 
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:56px;height:auto;border-radius:8px}
+
 @media(max-width:640px){
 	.site-header .container{flex-direction:column;align-items:flex-start}
 	.main-nav{margin-top:12px}
 	.grid{grid-template-columns:1fr}
+	.logo{width:46px}
 }
